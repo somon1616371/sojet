@@ -1,0 +1,44 @@
+{
+    "$schema": "../../schema/extension.schema.json",
+    "info": {
+        "id": "jdocfileexplorer",
+        "vendor_id": "sojet",
+        "display_name": "JDocFileExplorer",
+        "display_vendor": "Sojet Marking Technology (Xiamen) Co.,Ltd",
+        "license": "open-source"
+    },
+    "latest": "0.0.1",
+    "versions": {
+        "0.0.1": {
+            "sources": [
+                {
+                    "url": "https://github.com/somon1616371/sojet/releases/download/0.0.1/JDocFileExplorer-0.0.1-Windows-x64.7z",
+                    "sha256": "5f1d13147488e2dbfda4a80cc885533e8d947e47f491b526a2186ab62f81cd48",
+                    "platform": {
+                        "name": "Windows",
+                        "architecture": "x86_64"
+                    }
+                }
+            ],
+            "metadata": {
+                "Id": "jdocfileexplorer",
+                "Name": "JDocFileExplorer",
+                "Version": "0.0.1",
+                "CompatVersion": "0.0.1",
+                "Vendor": "Sojet Marking Technology (Xiamen) Co.,Ltd",
+                "VendorId": "sojet",
+                "Copyright": "(C) Sojet Marking Technology (Xiamen) Co.,Ltd",
+                "License": "Put short license information here",
+                "Description": "",
+                "Url": "http://www.sojet-tech.com",
+                "DocumentationUrl": "",
+                "Dependencies": [
+                    {
+                        "Id": "core",
+                        "Version": "0.0.1"
+                    }
+                ]
+            }
+        }
+    }
+}
