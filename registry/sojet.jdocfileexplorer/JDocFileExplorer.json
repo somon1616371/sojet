@@ -1,0 +1,45 @@
+{
+    "$schema": "../../schema/extension.schema.json",
+    "info": {
+        "id": "jdocfileexplorer",
+        "vendor_id": "sojet",
+        "display_name": "JDocFileExplorer",
+        "display_vendor": "Sojet Marking Technology (Xiamen) Co.,Ltd",
+        "license": "open-source"
+    },
+    "latest": "0.0.1",
+    "versions": {
+        "0.0.1": {
+            "sources": [
+                {
+                    "url": "https://github.com/cristianadam/llama.qtcreator/releases/download/v3.0.3/LlamaCpp-3.0.3-Windows-x64.7z",
+                    "sha256": "a35cb774025c13c11d1f91fb092f9f2284cdf9de58e188b327feb563d7f7ac7a",
+                    "platform": {
+                        "name": "Windows",
+                        "architecture": "x86_64"
+                    }
+                }
+            ],
+            "metadata": {
+                "Id": "jdocfileexplorer",
+                "DisplayName": "JDoc File Explorer",
+                "Name": "JDocFileExplorer",
+                "Version": "0.0.1",
+                "CompatVersion": "0.0.1",
+                "Vendor": "Sojet Marking Technology (Xiamen) Co.,Ltd",
+                "VendorId": "sojet",
+                "Copyright": "(C) Sojet Marking Technology (Xiamen) Co.,Ltd",
+                "License": "Put short license information here",
+                "Description": "Put a short description of your plugin here",
+                "Url": "http://www.sojet-tech.com",
+                "DocumentationUrl": "",
+                "Dependencies": [
+                    {
+                        "Id": "core",
+                        "Version": "0.0.1"
+                    }
+                ]
+            }
+        }
+    }
+}
